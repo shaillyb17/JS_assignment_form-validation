@@ -1,14 +1,14 @@
 body {
   margin: 7% 10%;
   font-family: 'Arapey', serif;
-  background-color: #03A9F4;
+  background-color: #449afe;
   line-height: 1rem;
 }
 
 h1 {
   text-align: center;
   font-family: 'Dancing script', sans-serif;
-  color: #03A9F4;
+  color: #449afe;
   padding: 2% 1%;
 }
 
@@ -24,15 +24,8 @@ h1 {
   -o-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 .image {
-  width: 50%;
-  padding-right: 0;
-}
-
-img {
-  max-width: 100%;
-  max-height: 100%;
-  display: block;
-  margin-right: 0;
+  background: url("https://images.unsplash.com/photo-1417721955552-a49ac2d334e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80");
+  background-size: cover;
 }
 
 .form-main{
@@ -78,7 +71,7 @@ input.box {
 .form1 i {
 	visibility: hidden;
 	position: absolute;
-	top: 19px;
+	top: 18px;
 	right: 15px;
 }
 
@@ -107,13 +100,14 @@ input.box {
 .submit{
   align-content: center;
   text-align: center;
-  background-color: #03A9F4;
+  background-color: #449afe;
   width: 50%;
   border-radius: 23.5px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 1%;
   margin-bottom: 5%;
+  font-weight: 400;
 }
 button{
   text-align: center;
